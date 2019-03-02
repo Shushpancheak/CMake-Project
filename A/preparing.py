@@ -1,10 +1,10 @@
 import sys
 
-lines = sys.stdin.readlines().replace
 index = open("index.h", "w")
 
-for line in lines:
-    line.rstrip()
-    index.write("#include \"" + line + "\"")
+index.write("#pragma once")
+index.write("namespace index {")
+index.write("void CheckThatIndexIsWorking();")
+index.write("}")
 
 print("created index.h")
