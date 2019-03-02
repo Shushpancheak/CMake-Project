@@ -1,4 +1,4 @@
-#Build
+# Build
 to build the project, please, use these commands:
 ~~~
 #!/bin/bash
