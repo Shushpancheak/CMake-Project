@@ -6,3 +6,5 @@ index = open("index.h", "w")
 for line in lines:
     line.rstrip()
     index.write("#include \"" + line + "\"")
+
+print("created index.h")
