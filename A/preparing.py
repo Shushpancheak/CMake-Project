@@ -8,3 +8,5 @@ index.write("void CheckThatIndexIsWorking();")
 index.write("}")
 
 print("created index.h")
+
+index.close()
