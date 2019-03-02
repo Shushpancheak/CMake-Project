@@ -1,9 +1,9 @@
 #include "main.h"
 
 int main() {
-  CheckThatIndexIsWorking();
-  CheckThatLibIsWorking();
+  index::CheckThatIndexIsWorking();
+  lib::CheckThatLibIsWorking();
 
-  std::cout << "main done.";
+  std::cout << "main done.\n";
   return 0;
 }

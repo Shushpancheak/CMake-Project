@@ -1,6 +1,6 @@
-#include "index.h"
+#include "A/index.h"
 #include <iostream>
 
 void index::CheckThatIndexIsWorking() {
-  std::cout << "Index is working";
+  std::cout << "Index is working\n";
 }
