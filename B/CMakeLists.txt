@@ -1,0 +1,1 @@
+add_library(lib SHARED lib.cpp lib.h)
